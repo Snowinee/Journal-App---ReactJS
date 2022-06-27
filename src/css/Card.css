@@ -1,0 +1,68 @@
+.container {
+    padding: 80px 20px 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card {
+    display: flex;
+    gap: 30px;
+    width: 700px;
+}
+
+.card > .locationCover {
+    width: 200px;
+    overflow: hidden;
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 5px 6px 10px 1px gray;
+}
+
+.locationCover > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card > .description > .descHeader {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.descHeader > i {
+    color: #F55A5A;
+}
+
+.descHeader > .location {
+    letter-spacing: 6px;
+    font-weight: 400;
+    font-size: 0.8rem;
+    align-self: center;
+    margin: 0 10px 0 5px;
+}
+.descHeader > .mapLink {
+    color: gray;
+    font-size: 0.9rem;
+}
+
+.description > .locationTitle {
+    font-size: 2.5rem;
+    margin-top: 10px;
+}
+
+.description > .locationDate {
+    margin-top: 25px;
+    font-weight: 800;
+    font-size: 0.7rem;
+    line-height: 0.9rem;
+}
+
+.description > .locationDesc {
+    font-weight: 400;
+    margin-top: 5px;
+    font-size: 10.24px;
+    line-height: 15px;
+    width: 326px;
+/* or 15px */
+}

@@ -1,0 +1,15 @@
+header {
+    background-color: #F55A5A;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: white;
+    padding: 12px;
+}
+nav i {
+    font-size: 1.5rem;
+}
